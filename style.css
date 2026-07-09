@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.profile-card{
+    border: 23% solid;
+    box-shadow: black;
+    margin-left: 39%;
+    margin-top: 30%;
+    padding: 20px;
+    background-color: rgb(226, 223, 217);
+    border-radius: 12px;
+    width: 400px;
+    box-shadow:rgba(0, 0, 0, 0.5);
+}
+.profile-card img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    margin-left: 30%;
+    margin-top: 10px;
+    border-color: blue;
+}
+.profile-card h2{
+    color: blue;
+    margin-top: 20px;
+    padding: 0.5rem;
+    margin-left: 10%;
+
+}
+.profile-card p{
+    padding: 10px;
+}
+.star{
+    margin-left: 20px;
+
+}
+.profile-card ul{
+    margin-left: 12px;
+}
+.profile-card ul li{
+    list-style: decimal;
+    padding: 0.5rem;
+    
+}
+.profile-card button{
+    height: 30px;
+    border-radius: 12px;
+    color: rgb(185, 185, 189);
+    margin-left: 28%;
+    background-color: blue;
+    width: 200px;
+    border: none;
+}
+.profile-card button:hover{
+    color: black;
+    background-color: azure;
+}
